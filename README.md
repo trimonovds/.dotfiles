@@ -17,7 +17,7 @@ brew install font-jetbrains-mono-nerd-font
 ```
 
 ### 4. Install packages and tools
-- oh-my-zsh
+- [oh-my-zsh](https://ohmyz.sh)
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
