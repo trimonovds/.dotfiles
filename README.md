@@ -1,22 +1,26 @@
 # Setup
 
 ### 1. Install [homebrew](https://brew.sh/) 
-```console
+```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 ### 2. Install [kitty](https://sw.kovidgoyal.net/kitty/)
-```console
+```bash
 brew install --cask kitty
 ```
 
 ### 3. Install JetBrains Mono Nerd Font
-```console
+```bash
 brew tap homebrew/cask-fonts
 brew install font-jetbrains-mono-nerd-font
 ```
 
 ### 4. Install packages and tools
+- oh-my-zsh
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 - tldr
 - ripgrep
 - fd
@@ -34,20 +38,20 @@ brew install font-jetbrains-mono-nerd-font
 
 ### 6. Install editors 
 - nvim, helix
-```console
+```bash
 brew install neovim 
 brew install helix
 ```
 - VSCode, Xcode
 
 ### 7. Create basic dirs
-```console
+```bash
 mkdir ~/.config
 mkdir ~/Repos
 ```
 
 ### 8. Download configs
-```console
+```bash
 cd ~/.config
 git clone https://github.com/trimonovds/nvim-config nvim
 git clone https://github.com/trimonovds/kitty-config kitty
